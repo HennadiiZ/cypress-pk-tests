@@ -1,5 +1,3 @@
-// headerNavigationEducation.cy.js
-
 describe('Education Dropdown', () => {
   beforeEach(() => {
     // Visit the page before each test
