@@ -1,0 +1,8 @@
+{
+  "validFormData": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "subject": "This is a test subject",
+    "message": "This is a test message"
+  }
+}

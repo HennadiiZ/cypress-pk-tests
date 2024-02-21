@@ -1,5 +1,3 @@
-// headerNavigationProduct.cy.js
-
 describe('Product Dropdown', () => {
   beforeEach(() => {
     // Visit the page before each test

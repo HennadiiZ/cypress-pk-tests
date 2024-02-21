@@ -6,12 +6,7 @@ describe('Header Navigation with Dropdowns', () => {
 
   // LOGO
   it('should navigate to the Home page', () => {
-    // Click on the 'Home' link in the header
-    // cy.get('#t4-header').contains('Home').click();
     cy.get('#t4-header a[href="https://pksound.live/"]').click();
-
-    // Check if the URL matches the expected URL of the Home page
-    // cy.url().should('eq', 'https://pksound.live/');
 
     cy.url()
       .should('include', 'https://pksound.live/')
